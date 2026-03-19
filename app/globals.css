@@ -23,4 +23,38 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
 }
+@font-face {
+  font-family: font1;
+  src: url(/fonts/Chomsky.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(/fonts/F37Stout-BlackCompressed.ttf);
+}
+@font-face {
+  font-family: font3;
+  src: url(/fonts/InstrumentSerif-Regular.ttf);
+}
+@font-face {
+  font-family: font4;
+  src: url(/fonts/Mayonice.ttf);
+}
+@font-face {
+  font-family: font5;
+  src: url(/fonts/NeueMontrealBold.woff2);
+}
+@font-face {
+  font-family: font6;
+  src: url(/fonts/NordMedium.woff2);
+}
+@font-face {
+  font-family: font7;
+  src: url(/fonts/NordRegular.woff2);
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
