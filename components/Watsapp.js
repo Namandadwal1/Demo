@@ -31,7 +31,7 @@ function Watsapp() {
           {/* Primary CTA Button */}
           <div className="flex flex-col items-center justify-center gap-6">
             <a
-              href="https://wa.me/919625713755"
+              href="https://wa.me/916230518838"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative bg-[#4F4FF1] text-white px-10 py-6 rounded-full font-[font5] text-xl flex items-center gap-4 transition-all duration-300 shadow-[0_0_30px_-10px_#4F4FF1] hover:scale-105 active:scale-95"
@@ -56,4 +56,4 @@ function Watsapp() {
 }
 
 export default Watsapp
-
+

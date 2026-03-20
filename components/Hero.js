@@ -41,7 +41,7 @@ function Hero() {
 
                 {/* Action Buttons */}
                 <div className='flex flex-col sm:flex-row items-center justify-center gap-4 mb-20 w-full px-4'>
-                    <a href="https://wa.me/919625713755" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/916230518838" target="_blank" rel="noopener noreferrer"
                        className="w-full sm:w-auto bg-[#4F4FF1] text-white px-10 py-5 rounded-full font-[font5] text-lg flex items-center justify-center gap-2 hover:scale-105 transition-all shadow-[0_0_20px_-5px_#4F4FF1] active:scale-95">
                         Start Your Project
                         <MdOutlineArrowRightAlt className="text-2xl" />
