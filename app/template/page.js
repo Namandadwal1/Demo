@@ -17,7 +17,7 @@ function Page() {
     <div className="min-h-screen bg-black text-white pt-32 pb-20 relative overflow-hidden">
       {/* Background System mirroring Hero */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 opacity-10 [background-image:linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] [background-size:40px_40px]"></div>
+        <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-size-[40px_40px]"></div>
         <div className="absolute inset-0 [background:radial-gradient(circle_at_50%_40%,#4F4FF110_0%,transparent_60%)]"></div>
       </div>
 

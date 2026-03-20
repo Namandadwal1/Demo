@@ -20,9 +20,9 @@ export default function Navbar() {
 
   return (
     <div className="relative w-full">
-      <nav className="flex justify-between md:justify-around bg-black/80 backdrop-blur-md items-center fixed top-0 left-0 z-[100] lg:px-10 md:px-10 px-6 py-4 w-full text-white border-b border-white/5">
+      <nav className="flex justify-between md:justify-around bg-black/80 backdrop-blur-md items-center fixed top-0 left-0 z-150 lg:px-10 md:px-10 px-6 py-4 w-full text-white border-b border-white/5">
         {/* Logo */}
-        <div className="logo z-[110]">
+        <div className="logo z-110">
           <h1 className="font-[font1] lg:text-[3vw] md:text-[5vw] text-[8vw] tracking-tighter cursor-pointer flex items-center gap-2">
             <BsGlobeCentralSouthAsiaFill className="text-[#4F4FF1]" />
             <span className="hidden md:inline text-xl font-[font5] tracking-widest uppercase ml-2">Elevate</span>
@@ -47,7 +47,7 @@ export default function Navbar() {
         {/* Mobile Menu Button - Hamburger Animation */}
         <button
           onClick={() => setMenu(!menu)}
-          className="md:hidden flex flex-col gap-1.5 items-center justify-center cursor-pointer z-[130] p-2 w-10 h-10"
+          className="md:hidden flex flex-col gap-1.5 items-center justify-center cursor-pointer z-130 p-2 w-10 h-10"
           aria-label="Toggle Menu"
         >
           <div className={`h-0.5 w-7 bg-white rounded-full transition-all duration-300 ${menu ? "rotate-45 translate-y-2" : ""}`}></div>
@@ -58,7 +58,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Overlay */}
       <div 
-        className={`fixed inset-0 bg-black z-[120] flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
+        className={`fixed inset-0 bg-black z-120 flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
           menu ? "translate-y-0 opacity-100 visible" : "-translate-y-full opacity-0 invisible"
         } md:hidden`}
       >

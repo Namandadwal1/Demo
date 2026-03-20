@@ -16,7 +16,7 @@ function Features() {
                             <div className="w-1.5 h-1.5 rounded-full bg-zinc-700"></div>
                         </div>
                         <div className="mt-4 w-32 h-16 bg-[#4F4FF110] border border-[#4F4FF130] rounded-md relative flex items-center justify-center">
-                            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#4F4FF1] to-purple-500 opacity-20 blur-xl animate-pulse"></div>
+                            <div className="w-12 h-12 rounded-full bg-linear-to-br from-[#4F4FF1] to-purple-500 opacity-20 blur-xl animate-pulse"></div>
                             <div className="w-8 h-8 rounded-lg border-2 border-[#4F4FF1] opacity-60 rotate-12"></div>
                         </div>
                     </div>
@@ -31,15 +31,15 @@ function Features() {
             illustration: (
                 <div className="relative w-full h-full flex items-center justify-center p-8">
                     {/* CSS Illustration for Lightning Fast */}
-                    <div className="relative w-16 h-40 bg-gradient-to-t from-[#4F4FF1] to-indigo-400 rounded-full blur-2xl opacity-20 animate-pulse"></div>
+                    <div className="relative w-16 h-40 bg-linear-to-t from-[#4F4FF1] to-indigo-400 rounded-full blur-2xl opacity-20 animate-pulse"></div>
                     <div className="absolute flex flex-col items-center">
                         <div className="w-12 h-20 bg-zinc-900 rounded-t-full border border-zinc-800 relative z-10 flex items-center justify-center overflow-hidden">
                             <div className="w-6 h-6 rounded-full bg-[#4F4FF1] blur-md opacity-50"></div>
                         </div>
                         <div className="w-16 h-8 bg-zinc-800 rounded-b-xl -mt-1 border border-zinc-700 shadow-lg"></div>
                         <div className="mt-2 flex flex-col gap-1 items-center">
-                            <div className="w-2 h-8 bg-gradient-to-b from-[#4F4FF1] to-transparent rounded-full opacity-60"></div>
-                            <div className="w-1 h-12 bg-gradient-to-b from-indigo-500 to-transparent rounded-full opacity-40 -mt-4"></div>
+                            <div className="w-2 h-8 bg-linear-to-b from-[#4F4FF1] to-transparent rounded-full opacity-60"></div>
+                            <div className="w-1 h-12 bg-linear-to-b from-indigo-500 to-transparent rounded-full opacity-40 -mt-4"></div>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ function Features() {
                         </div>
                         
                         {/* CSS Illustration Area */}
-                        <div className="image h-64 mt-auto rounded-t-2xl w-full mx-auto bg-gradient-to-t from-black to-transparent overflow-hidden">
+                        <div className="image h-64 mt-auto rounded-t-2xl w-full mx-auto bg-linear-to-t from-black to-transparent overflow-hidden">
                             <div className="group-hover:scale-110 transition-transform duration-700 ease-out h-full">
                                 {item.illustration}
                             </div>
