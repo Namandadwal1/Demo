@@ -4,7 +4,7 @@ function Pricing() {
   const plans = [
     {
       name: 'Starter Plan',
-      price: '₹2,000',
+      price: '₹12,000',
       description: 'Best for small businesses or personal websites.',
       features: [
         '1–2 Page Website',
@@ -18,7 +18,7 @@ function Pricing() {
     },
     {
       name: 'Business Plan',
-      price: '₹7,000',
+      price: '₹20,000',
       description: 'Perfect for growing businesses that want a professional online presence.',
       features: [
         '4–6 Page Website',
@@ -35,7 +35,7 @@ function Pricing() {
     },
     {
       name: 'Premium Plan',
-      price: '₹15,000',
+      price: '₹45,000',
       description: 'Best for businesses that want a high-quality professional website.',
       features: [
         '8–10 Page Custom Website',
